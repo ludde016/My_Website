@@ -1,4 +1,14 @@
 header {
     background-color: #666; /* #666 = pleasant grey colour */
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+.parallax {
+    background-image: url(images/test_im.png);
+
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
