@@ -12,7 +12,7 @@ body, html {
 
 header {
     background-color: #666; /* #666 = pleasant grey colour */
-    padding: 40px 0px 30px 0px;
+    padding: 50px 0px 40px 0px;
 }
 
 .parallax {
@@ -25,16 +25,39 @@ header {
     background-size: cover;
 }
 
-.test {
-    height: 500px;
-    background-color: #666;
-    font-size: 20px;
-}
-
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
+    font-size: 25px;
     font-weight: bold;
 }
+
+.About-me {
+    background-color: #666;
+    display: flex;
+    justify-content: space-around; /* This might not work, too much space */
+    align-items: center;
+    padding: 40px 20px;
+    flex-wrap: nowrap;
+    height: 500px;
+    font-size: 20px;
+}
+
+.About-image {
+    text-align: center;
+    max-width: 500px;
+    margin: 5px;
+}
+
+.About-image img {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.About-text {
+    max-width: 600px;
+    margin: 5px;
+}
+
