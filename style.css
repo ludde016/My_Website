@@ -16,13 +16,32 @@ header {
 }
 
 .parallax {
-    background-image: url(images/test_im.png);
-
     min-height: 750px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax1 {
+    background-image: url(images/VackertLandskap.jpg);
+}
+
+.parallax1-text {
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+    letter-spacing: 4px;
+
+}
+
+.parallax2 {
+    background-image: url(images/test_im.png);
 }
 
 nav ul {
