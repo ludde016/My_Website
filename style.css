@@ -7,11 +7,11 @@
 body, html {
     font-family: Arial, sans-serif;
     scroll-behavior: smooth;
-    color: white;
+    color: black;
 }
 
 header {
-    background-color: #666; /* #666 = pleasant grey colour */
+    background-color:#F0EAD6; /* #666 = pleasant grey colour */
     padding: 50px 0px 40px 0px;
 }
 
@@ -55,7 +55,7 @@ nav ul {
 }
 
 .About-me {
-    background-color: #666;
+    background-color: #F0EAD6;
     display: flex;
     justify-content: space-around; /* This might not work, too much space */
     align-items: center;
@@ -82,7 +82,7 @@ nav ul {
 }
 
 .Journey {
-    background-color: #666;
+    background-color: #F0EAD6;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -108,7 +108,7 @@ nav ul {
     bottom: 0;
     height: calc(100% - 140px); /* Improvised solution for getting rid of last white line */
     width: 2px; /* Line width */
-    background: white;
+    background: black;
     content: ''; /* Needed to make the white lines work */
 }
 
@@ -123,9 +123,20 @@ nav ul {
 .circle {
     width: 20px;
     height: 20px;
-    background: white;
+    background: black;
     border-radius: 50%;
     position: absolute;
     left: -30px;
     top: 5px;    
+}
+
+.Journey-image {
+    text-align: center;
+    max-width: 700px;
+    margin: 5px;
+}
+
+.Journey-image img {
+    width: 100%;
+    border: 2px solid black;
 }
