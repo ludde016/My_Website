@@ -16,7 +16,7 @@ header {
 }
 
 .parallax {
-    min-height: 750px;
+    min-height: 650px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ header {
 }
 
 .parallax1 {
-    background-image: url(images/VackertLandskap.jpg);
+    background-image: url(images/Fjäll_2.jpg);
     position: relative;
 }
 
@@ -42,7 +42,7 @@ header {
 }
 
 .parallax2 {
-    background-image: url(images/test_im.png);
+    background-image: url(images/Fjäll_sjö_2.jpg);
 }
 
 nav ul {
@@ -88,7 +88,7 @@ nav ul {
     align-items: flex-start;
     padding: 40px 20px;
     flex-wrap: wrap;
-    height: 800px;
+    height: 930px;
     gap: 40px;
 }
 
@@ -106,6 +106,7 @@ nav ul {
     left: 89px;
     top: 40px;
     bottom: 0;
+    height: calc(100% - 140px); /* Improvised solution for getting rid of last white line */
     width: 2px; /* Line width */
     background: white;
     content: ''; /* Needed to make the white lines work */
