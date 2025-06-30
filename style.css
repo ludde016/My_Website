@@ -11,8 +11,9 @@ body, html {
 }
 
 header {
-    background-color:#F0EAD6; /* #666 = pleasant grey colour */
+    background-color:#444; /* #666 = pleasant grey colour */
     padding: 50px 0px 40px 0px;
+    color: #F8F4FF;
 }
 
 .parallax {
@@ -146,4 +147,30 @@ nav ul {
 .Journey-image img {
     width: 100%;
     border: 2px solid black;
+}
+
+.bottom-info {
+    background-color: #444;
+    color: white;
+    padding: 40px 20px;
+    font-size: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.footer-section {
+    max-width: 300px;
+}
+
+.footer-section h {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid white;
 }
