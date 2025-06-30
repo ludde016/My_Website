@@ -74,7 +74,8 @@ nav ul {
 
 .About-image img {
     width: 100%;
-    border: 2px solid black;
+    border-radius: 40%;
+    object-fit: cover;
 }
 
 .About-text {
@@ -87,10 +88,10 @@ nav ul {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 40px 20px;
+    padding: 60px 20px;
     flex-wrap: wrap;
     height: 930px;
-    gap: 40px;
+    gap: 60px;
 }
 
 .timeline {
@@ -139,14 +140,22 @@ nav ul {
 }
 
 .Journey-image {
+    flex: 1.5;
+    align-self: center;
+    padding: 10px;
+    border-radius: 12px;
     text-align: center;
-    max-width: 700px;
+    max-width: 800px;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     margin: 5px;
+    margin-right: 100px;
 }
 
 .Journey-image img {
     width: 100%;
-    border: 2px solid black;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 .bottom-info {
@@ -169,8 +178,8 @@ nav ul {
     max-width: 300px;
 }
 
-.footer-section h {
+.footer-section h3 {
     font-size: 20px;
-    margin-bottom: 15px;
-    border-bottom: 2px solid white;
+    margin-bottom: 5px;
+    border-bottom: 1px solid white;
 }
