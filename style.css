@@ -120,6 +120,13 @@ nav ul {
     max-width: 700px;
 }
 
+.timeline-step:hover {
+    background-color: rgba(0,0,0,0.05);
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease; /* Neat little trick to get a nice hover effect */
+}
+
 .circle {
     width: 20px;
     height: 20px;
